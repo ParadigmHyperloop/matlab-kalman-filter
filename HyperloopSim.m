@@ -5,9 +5,9 @@
     disp('Simulation Started')
     
         
-    globals = globalData();
-    pod = podData();
-    tube = tubeData();
+    globals = struct(globalData());
+    pod = struct(podData());
+    tube = struct(tubeData());
     
     failed=false;
     sensorType=[];
